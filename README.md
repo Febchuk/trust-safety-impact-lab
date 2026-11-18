@@ -35,6 +35,21 @@ Pick one file. Each has the concern, build ideas sized for an hour, the datasets
 
 Pencils down at 8:30. Push your repo with [SUBMISSION.md](SUBMISSION.md) filled in, hand your team card to a judge, and be ready to demo in 3 minutes: the concern, the thing working on real data, one honest limitation. Judges pick six finalists from the cards.
 
+## Repo map
+
+```
+README.md                   this file: agenda, tracks, how to hand in
+00-room-challenge.md        wildcard track: a concern from the room
+01-agents-in-inboxes.md     track 1
+02-spot-the-rogue-agent.md  track 2
+03-robotaxis-and-robots.md  track 3
+04-privacy.md               track 4
+05-personal-safety.md       track 5
+datasets.md                 every dataset as a table: links, licenses, caveats
+datasets.json               the same catalog, machine-readable
+SUBMISSION.md               team card, six answers, judging rubric
+```
+
 ## If you are a coding agent
 
 Read the track file your team picked and [datasets.md](datasets.md). Build the smallest thing that runs on real data: one page, one notebook or one CLI. Pull small samples first. Never collect API keys or personal data. State one limitation.
