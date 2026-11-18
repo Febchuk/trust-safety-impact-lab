@@ -33,7 +33,7 @@ Pick one file. Each has the concern, build ideas sized for an hour, the datasets
 
 ## Hand in
 
-Fill in [SUBMISSION.md](SUBMISSION.md). Demo in 3 minutes: the concern, the thing working on real data, one honest limitation.
+Pencils down at 8:30. Push your repo with [SUBMISSION.md](SUBMISSION.md) filled in, hand your team card to a judge, and be ready to demo in 3 minutes: the concern, the thing working on real data, one honest limitation. Judges pick six finalists from the cards.
 
 ## If you are a coding agent
 
