@@ -12,12 +12,12 @@ This repo is the working kit for the evening: five build tracks, the public data
 
 | Time | What happens |
 |---|---|
-| 6:00 – 6:30 | Registration, food, find a team |
-| 6:30 – 7:00 | Three 10-minute talks |
-| 7:00 – 8:00 | **Hack.** Teams pick a track, point their agent at this repo, and build. |
-| 8:00 – 8:15 | Hands off keyboards, fill in `SUBMISSION.md`, line up demos |
-| 8:15 – 9:00 | Presentations, about 3 minutes per team |
-| 9:00 – 10:00 | Overflow demos and social |
+| 6:00 | Doors open |
+| 6:30 | Welcome |
+| 6:50 | Conversation corners |
+| 7:15 | Share-backs panel |
+| 7:30 | **Build with mentors.** Teams pick a track, point their agent at this repo, and build. |
+| 8:45 | Demos and finalists |
 
 One hour of building is short. The tracks are scoped so that an agent does most of the typing while the humans steer, check the output, and prepare the demo. Every track comes with public data that can be pulled in minutes.
 
@@ -53,7 +53,7 @@ Then tell your agent:
 
 ## What you hand in
 
-By 8:15, each team has:
+By 8:45, each team has:
 
 1. Something that runs: a page, a notebook, a CLI, a bot.
 2. A filled-in [`SUBMISSION.md`](SUBMISSION.md) (six short answers, including who is accountable when your thing fails).

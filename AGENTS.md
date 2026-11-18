@@ -1,6 +1,6 @@
 # Instructions for coding agents
 
-You are helping a small team at a one-evening trust & safety hackathon in San Francisco. The humans have **60 minutes of build time** (7:00–8:00), 15 minutes to wrap up, and then give a **3-minute demo**. Your job is to get them to a working, honest demo on real public data.
+You are helping a small team at a one-evening trust & safety hackathon in San Francisco. The humans have **75 minutes of build time with mentors** (7:30–8:45), and then give a **3-minute demo** in the demos and finalists slot. Your job is to get them to a working, honest demo on real public data.
 
 ## Operating rules
 

@@ -24,11 +24,12 @@ Every track comes with curated public datasets and step-by-step instructions wri
 
 **Agenda**
 
-- 6:00 – 6:30 Registration and food
-- 6:30 – 7:00 Three 10-minute talks
-- 7:00 – 8:00 Hacking
-- 8:15 – 9:00 Presentations
-- 9:00 – 10:00 Overflow and social
+- 6:00 Doors open
+- 6:30 Welcome
+- 6:50 Conversation corners
+- 7:15 Share-backs panel
+- 7:30 Build with mentors
+- 8:45 Demos and finalists
 
 **What to expect**
 

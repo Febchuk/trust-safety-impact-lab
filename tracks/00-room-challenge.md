@@ -1,8 +1,8 @@
 # Room challenge (wildcard)
 
-The evening opens with three short talks and a room full of people who have their own worries about AI in this city. Some of what comes up will not fit tracks 1–5. This slot is for those: take a concern from the room and build on it with the same datasets.
+The evening opens with a welcome, conversation corners, a share-backs panel, and a room full of people who have their own worries about AI in this city. Some of what comes up will not fit tracks 1–5. This slot is for those: take a concern from the room and build on it with the same datasets.
 
-Organizers paste concerns raised during the talks into [`notes/room-concerns.md`](../notes/room-concerns.md) just before 7:00.
+Organizers paste concerns raised during the conversation corners and share-backs panel into [`notes/room-concerns.md`](../notes/room-concerns.md) just before 7:30.
 
 ## Turn a concern into a challenge (5 minutes)
 

@@ -1,6 +1,6 @@
 # Concerns from the room
 
-Organizers: paste concerns and challenge statements raised during the 6:30 talks here before 7:00 so every team's agent can read them. One per line is fine.
+Organizers: paste concerns and challenge statements raised during the conversation corners and share-backs panel here before 7:30 so every team's agent can read them. One per line is fine.
 
 Format for a challenge statement:
 
