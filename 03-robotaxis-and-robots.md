@@ -35,19 +35,17 @@ San Francisco allows sidewalk delivery robots only under testing permits with ti
 
 | id | What it is | Pull |
 |---|---|---|
-| `nhtsa-sgo-ads` | Federal crash reports for automated driving systems, June 2025 onward, monthly CSV | `python scripts/fetch.py --id nhtsa-sgo-ads` |
-| `nhtsa-sgo-ads-archive` | Same, 2021 to June 2025, older schema | `python scripts/fetch.py --id nhtsa-sgo-ads-archive` |
-| `nhtsa-sgo-adas` | Driver-assist (Level 2) crash reports | `python scripts/fetch.py --id nhtsa-sgo-adas` |
-| `ca-av-collisions-zenodo` | CA DMV collision reports 2019–2024 as one CSV, CC BY 4.0 | `python scripts/fetch.py --id ca-av-collisions-zenodo` |
+| `nhtsa-sgo-ads` | Federal crash reports for automated driving systems, June 2025 onward, monthly CSV | see `datasets.json` |
+| `nhtsa-sgo-ads-archive` | Same, 2021 to June 2025, older schema | see `datasets.json` |
+| `nhtsa-sgo-adas` | Driver-assist (Level 2) crash reports | see `datasets.json` |
+| `ca-av-collisions-zenodo` | CA DMV collision reports 2019–2024 as one CSV, CC BY 4.0 | see `datasets.json` |
 | `ca-dmv-collision-reports` | Original PDFs, including 2025–2026 | manual, see catalog |
 | `ca-dmv-disengagements` | Yearly disengagement and mileage CSVs (testing permits) | manual |
 | `cpuc-av-quarterly` | Passenger-service quarterly data: trips, miles, more | manual |
 | `waymo-safety-hub` | Company-published miles and crash data by city | manual |
-| `sf-311-cases` | 311 service requests, Socrata API | `python scripts/fetch.py --id sf-311-cases` |
-| `sf-traffic-crashes` | All injury crashes in SF (human baseline) | `python scripts/fetch.py --id sf-traffic-crashes` |
+| `sf-311-cases` | 311 service requests, Socrata API | see `datasets.json` |
+| `sf-traffic-crashes` | All injury crashes in SF (human baseline) | see `datasets.json` |
 | `sf-sidewalk-robot-rules` | City code for sidewalk delivery robots | manual |
-
-`python scripts/fetch.py --track 3` pulls the direct ones.
 
 ## One-hour plan
 

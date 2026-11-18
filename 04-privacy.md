@@ -33,12 +33,10 @@ A redaction layer that sits in front of a model, a log file or an agent's memory
 
 | id | What it is | Pull |
 |---|---|---|
-| `eff-atlas-of-surveillance` | Agency-by-technology records with sources, CSV | `python scripts/fetch.py --id eff-atlas-of-surveillance` |
+| `eff-atlas-of-surveillance` | Agency-by-technology records with sources, CSV | see `datasets.json` |
 | `sf-surveillance-inventory` | The city's inventory and one policy PDF per technology and department | manual, see catalog |
 | `eff-ca-alpr` | California plate reader scan and hit counts | manual |
-| `nemotron-pii` | Synthetic text with PII labels | `python scripts/fetch.py --id nemotron-pii` |
-
-`python scripts/fetch.py --track 4` pulls the direct ones.
+| `nemotron-pii` | Synthetic text with PII labels | see `datasets.json` |
 
 ## One-hour plan
 

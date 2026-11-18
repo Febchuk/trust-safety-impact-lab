@@ -40,15 +40,13 @@ People cannot tell real photos from generated ones, and detectors are unreliable
 
 | id | What it is | Pull |
 |---|---|---|
-| `uci-sms-spam` | 5,574 labeled SMS messages, CC BY 4.0 | `python scripts/fetch.py --id uci-sms-spam` |
+| `uci-sms-spam` | 5,574 labeled SMS messages, CC BY 4.0 | see `datasets.json` |
 | `phishing-multi` | Phishing vs. benign emails, SMS, URLs, pages | manual (download the JSON files) |
 | `ftc-consumer-sentinel` | FTC fraud report aggregates by category, state, metro | manual (small CSV zip) |
 | `ai-incident-database` | Press-reported AI incidents with linked reports | manual (small Excel export) |
 | `mit-ai-risk-repository` | Risk taxonomy and incident classifications | manual |
 | `c2pa-tools` | Open-source Content Credentials (C2PA) tools | manual |
-| `sfpd-incident-reports` | SFPD incident reports since 2018, Socrata API | `python scripts/fetch.py --id sfpd-incident-reports` |
-
-`python scripts/fetch.py --track 5` pulls the direct ones.
+| `sfpd-incident-reports` | SFPD incident reports since 2018, Socrata API | see `datasets.json` |
 
 ## One-hour plan
 

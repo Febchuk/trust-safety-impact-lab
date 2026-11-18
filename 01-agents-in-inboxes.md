@@ -33,7 +33,7 @@ Agents hold keys: API tokens, mailbox scopes, file access. Most hold more than t
 Does a safety filter block the right things, and only those?
 - Data: `jbb-behaviors` (100 harmful + 100 matched benign requests), `aegis-2` test split, `toxic-chat` for realistic mostly-benign traffic.
 - Build: run a guard prompt over a sample, show the confusion matrix by category, then revise the prompt once and show the change.
-- Measure: missed-harm rate and over-refusal rate. Read `SAFETY.md` first: measure refusals, do not collect harmful completions.
+- Measure: missed-harm rate and over-refusal rate. Measure refusals, do not collect harmful completions.
 - Advanced: use Bloom (`petri-bloom`) to generate 10–20 scenarios for one behavior such as "agent shares the user's private data when asked nicely by a third party".
 
 ## Data
@@ -41,14 +41,12 @@ Does a safety filter block the right things, and only those?
 | id | What it is | Pull |
 |---|---|---|
 | `llmail-inject` | About 462k attacker-written emails from Microsoft's public challenge against a simulated email assistant, MIT license | `python scripts/fetch.py --id llmail-inject --rows 2000` |
-| `injecagent` | 1,054 indirect-injection test cases across 17 user tools | `python scripts/fetch.py --id injecagent` |
+| `injecagent` | 1,054 indirect-injection test cases across 17 user tools | see `datasets.json` |
 | `agentdojo` | Full agent environment (workspace, travel, banking, slack suites) | `pip install agentdojo` |
-| `deepset-prompt-injections` | Small labeled injection/benign prompt set | `python scripts/fetch.py --id deepset-prompt-injections` |
-| `jbb-behaviors`, `aegis-2`, `toxic-chat` | Content-safety test sets | `python scripts/fetch.py --id jbb-behaviors` etc. |
-| `cisa-kev` | CISA catalog of vulnerabilities known to be exploited, CC0 | `python scripts/fetch.py --id cisa-kev` |
-| `agentharm`, `anthropic-discrim-eval`, `petri-bloom` | Harmful agent tasks, fairness probes, auditing tools | see `datasets/README.md` |
-
-`python scripts/fetch.py --track 1` pulls samples of everything that is directly fetchable.
+| `deepset-prompt-injections` | Small labeled injection/benign prompt set | see `datasets.json` |
+| `jbb-behaviors`, `aegis-2`, `toxic-chat` | Content-safety test sets | see `datasets.json` |
+| `cisa-kev` | CISA catalog of vulnerabilities known to be exploited, CC0 | see `datasets.json` |
+| `agentharm`, `anthropic-discrim-eval`, `petri-bloom` | Harmful agent tasks, fairness probes, auditing tools | see `datasets.md` |
 
 ## One-hour plan
 

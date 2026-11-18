@@ -1,10 +1,10 @@
 # Dataset catalog
 
-Generated from `catalog.json`. Sources last checked 2026-11-12.
+Generated from `datasets.json`. Sources last checked 2026-11-12.
 
 **Checked** = the source page was opened and read on that date. **Not re-checked** = listed from the dataset's paper or general knowledge of the field; open the link before relying on details such as license or exact size.
 
-**Pull** types: `http` direct file, `hf_rows` row sample through the Hugging Face dataset viewer API, `socrata` DataSF query, `git` shallow clone, `manual` open the page and download (instructions in `catalog.json`).
+**Pull** types: `http` direct file, `hf_rows` row sample through the Hugging Face dataset viewer API, `socrata` DataSF query, `git` shallow clone, `manual` open the page and download (instructions in `datasets.json`).
 
 ## Track 1: Agents in Inboxes
 

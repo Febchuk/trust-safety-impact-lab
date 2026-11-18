@@ -10,7 +10,7 @@ Copy this file to `submissions/<team-name>.md` and open a pull request, or just 
 
 **2. What we built, and the one command that runs it:**
 
-**3. Data we used:** (dataset ids from `datasets/catalog.json`, how many rows, date range)
+**3. Data we used:** (dataset ids from `datasets.json`, how many rows, date range)
 
 **4. The number:** (one measured result, with sample size)
 
